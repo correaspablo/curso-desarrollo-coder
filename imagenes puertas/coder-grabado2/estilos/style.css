@@ -1,0 +1,167 @@
+/* esto es un comentario
+
+elemento (elemento en html) {
+   propiedad (emplo color) : valor ;( y que valor le doy)
+}
+
+     /* font-family,@font-face*/
+     
+    @font-face {
+                /*un nombre para relacionar esta tipografia y luego aplicarla */
+     font-family:roboto-general ;
+     src: url("../roboto/roboto-regular.ttf");
+                
+    }
+    
+
+  p {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+  }
+
+
+   html {
+    font-size: 20px;
+   }
+
+
+
+ 
+
+
+
+*/
+
+ p {
+    color: black ;
+    font: size 20px; ;
+ }
+
+ h1 {
+    background-color: blue;
+ }
+
+    section p {
+        color:black;
+    }
+    #productos{
+      background-color:red;
+    }
+
+    #productos h1 {
+      color: blue;
+    }
+
+    .pararagraph-one{
+      color:gray ;
+      font-size: 18px;
+    }
+
+    footer {
+      background-color:aliceblue ;
+    }
+
+ footer ul {
+   list-style-type: none;
+ }
+ 
+
+ /*font family ,font size -font style-font weight-text decoration-text align*/
+
+
+ p{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 30px;
+   font-style: italic;
+   font-weight: bold;
+   text-decoration: underline;/* linea por debajo,overline linea por arriba ,crossline linea por el medio*/
+   text-align: justify;
+ }
+
+
+ /* primer grupo...unidades de medida absolutas (unidades fijas y reales) */
+
+      p{
+         font-size: 20px;
+         margin: 40px;
+      }
+ /*unidades de medidas relativas */
+
+ img{
+   width: 100%;
+ }
+
+ a{
+   font-size: 2rem;
+ 
+ /* Rem es relativo al tamaño del elemento root (tamaño por default que traen las tipografias en html ...16px por dafault)*/
+}
+p {
+  font-size: 1em; /* */
+}
+
+
+div{
+ 
+  background-color: aqua;
+  width: 400px;
+  height: 250px;
+
+  /*pading o relleno*/
+  padding: top 20px; ;
+  padding-right: 40px;
+  padding-bottom: 10px ;
+  padding-left: 100px;
+  /* el mismo relleno para los 4 lados */
+   padding: 60px;
+   /* vertical y horizontal*/
+   padding: 200px 40px;
+  /* los 4 lados */
+  padding: 20px 40px 60px 100px;
+
+/*border*/
+
+border-bottom: 2px solid blue;
+
+/*
+margin-top: 
+nav-right: 
+margin-left: 
+margin-bottom:  */
+/*margin: 40px */
+/*margin:  40px 60px */
+margin: 40px 60px 12px 100px ;
+/* pone el elemento en linea pero respeta los anchos, altos y box model de los elementos internos*/
+
+     /*display: inline-block*/
+
+     /* se habilitan los cuatro lados
+     la caja se va mover segun su posision natural */
+
+    /* position: relative;*/
+     /* tienen un valor numerico*/
+
+     /*top: 80px;
+     left: 200px;*/
+
+     /*position: absolute;
+     top: 80px;
+     left: 240px;*/
+
+    /* position: fixed;
+     top: 0;*/
+
+
+     position: sticky;
+     top: 80px;
+     z-index: -1;
+
+
+
+  
+}
+
+
+
+
