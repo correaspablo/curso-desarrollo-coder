@@ -1,0 +1,24 @@
+footer{
+    border: solid 3px #fdfcfc;
+    background-color:#6d3205f1 ;
+    height: 200px;
+    padding-top: 1rem;
+}
+.autor{
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+.redes{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    img{
+        height: 45px;
+        width: auto;
+    }
+    @media screen and (width>576px){
+        justify-content: end;
+    }
+}
