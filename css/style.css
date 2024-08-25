@@ -92,6 +92,10 @@ main .img_container {
 main .img_container img {
   height: 150px;
   width: auto;
+  border-radius: 20px;
+}
+main .img_container h2 {
+  font-size: 50px;
 }
 main .text_container {
   display: flex;
@@ -118,8 +122,38 @@ main .text_container p {
 }
 @media screen and (width > 1024px) {
   main .img_container img {
-    height: 350px;
+    height: 700px;
   }
+}
+main .conocenos .redes {
+  width: 250px;
+  height: 250px;
+}
+main .prod {
+  text-align: center;
+}
+main .info h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+main .info p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+main .info .section-img {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+main .info .section-img img {
+  height: 500px;
+  width: auto;
+  border-radius: 20px;
+}
+main .info .section-img h2 {
+  font-size: 50px;
 }
 
 footer {
@@ -136,13 +170,13 @@ footer {
 }
 
 .redes {
-  color: #ffffff;
+  color: #f5eeee;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 20px;
 }
 .redes img {
-  height: 45px;
+  height: 55px;
   width: auto;
 }
 @media screen and (width > 576px) {

@@ -9,8 +9,13 @@ main{
         img{
             height: 150px;
             width:auto;
+            border-radius: 20px;
             }
-
+           
+            h2{
+             font-size: 50px;
+            }
+          
     }
     .text_container{        
         display: flex;
@@ -19,7 +24,7 @@ main{
         text-align: center;
         margin-top: 1rem;
     h2{
-        font-weight: bold;
+        font-weight:bold;
         font-size: 1.5rem;
     }
     p{
@@ -41,8 +46,50 @@ main{
     @media screen and (width>1024px){
         .img_container{
             img{
-                height: 350px;
+                height: 700px;
+            }
+        }    
+        
+        }
+        .conocenos{
+            .redes{
+                width:250px;
+                height:250px;
+                
+                
             }
         }
+        .prod{
+            text-align: center;
+            
+        }
+        .info{
+            h2{
+                text-align: center;
+                font-weight: bolder;
+                font-size: 3rem;
+            }
+            p{
+                text-align: center;
+                font-weight: bolder;
+                font-size: 2rem;
+            }
+            .section-img{
+                display: flex;
+                justify-content: center;
+                gap: 100px;
+                img{
+                    height: 500px;
+                    width:auto;
+                    border-radius: 20px;
+                    }
+                    h2{
+                     font-size: 50px;
+                    }
+            }
+        }
+        
+
 }
-}
+
+
